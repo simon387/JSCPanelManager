@@ -15,8 +15,8 @@ Why javascript and no more a full java solution? was bored about jaunt being clo
 + ```casperjs --verbose --log-level=debug --ignore-ssl-errors=true --ssl-protocol=any  main.js```
 + ```config.js``` format:
 
-  ```json
-  var data = {
+  ```js
+  var config = {
     'proxy': '',
     'url': 'https://cp.tophost.it/',
     'httpAuthUser': '',
