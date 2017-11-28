@@ -12,7 +12,8 @@ Why javascript and no more a full java solution? was bored about jaunt being clo
 ## execution
 
 + ```casperjs main.js```
-+ ```casperjs --verbose --log-level=debug --ignore-ssl-errors=true --ssl-protocol=any main.js```
++ ```casperjs --verbose --log-level=debug --ignore-ssl-errors=true --ssl-protocol=any jscpanelmanager.js```
++ without the ```--ignore-ssl-errors=true``` flag script may fails
 + ```config.js``` format:
 
   ```js
@@ -27,3 +28,4 @@ Why javascript and no more a full java solution? was bored about jaunt being clo
     'recordInputBox': '#td-label2 > input',
   }
   ```
++ example of bash running script: ```sh run.sh```
