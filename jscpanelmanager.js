@@ -1,13 +1,12 @@
-phantom.injectJs( './config.js');	
+phantom.injectJs('./config.js');	
 
 //setup
 var localExternalIp;
-var casper = require('casper').create({
+casper = require('casper').create({
 	proxy: config.proxy,
-});
-casper.start();
+}).start();
 
-//taking external real IP from amazon
+//getting external real IP from amazon
 casper.thenOpen(config.checkipUrl, function() {
 	localExternalIp = this.getHTML(config.checkipTag);
 });
@@ -18,7 +17,7 @@ casper.setHttpAuth(config.httpAuthUser, config.httpAuthPass);
 //entering site
 casper.thenOpen(config.url, function() {});
 
-//entering DNS config
+//click on DNS config
 casper.then(function() {
 	casper.click(config.editDNSElement);
 });
