@@ -19,6 +19,7 @@ Why javascript and no more a full java solution? was bored about jaunt being clo
   ```js
   var config = {
     'checkipUrl': 'http://checkip.amazonaws.com/',
+    'checkipTag': 'pre',
     'proxy': '',
     'url': 'https://cp.tophost.it/',
     'httpAuthUser': '',
