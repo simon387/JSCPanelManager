@@ -4,6 +4,10 @@ javascript version of https://github.com/simon387/CPanelManager
 
 Why javascript and no more a full java solution? was bored about jaunt being closed source
 
+## what is that?
+
+It's an example of full automation of the famous cpanel graphic tool. It changes the DNS IP of a given protocol (www, ftp, ecc).
+
 ## requirements
 
 + ```sudo npm install phantomjs -g```
