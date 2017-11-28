@@ -2,7 +2,7 @@ phantom.injectJs('./config.js');
 
 //setup
 var localExternalIp;
-casper = require('casper').create({
+var casper = require('casper').create({
 	proxy: config.proxy,
 }).start();
 
