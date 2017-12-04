@@ -15,7 +15,6 @@ It's an example of full automation of the famous cpanel graphic tool. It changes
 
 ## execution
 
-+ ```casperjs main.js```
 + ```casperjs --verbose --log-level=debug --ignore-ssl-errors=true --ssl-protocol=any jscpanelmanager.js```
 + without the ```--ignore-ssl-errors=true``` flag script may fails
 + ```config.js``` format:
