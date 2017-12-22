@@ -12,6 +12,7 @@ It's an example of full automation of the famous cpanel graphic tool. It changes
 
 + ```sudo npm install phantomjs -g```
 + ```sudo npm install casperjs -g```
++ adding ```--unsafe-perm=true --allow-root``` can helps sometime
 
 ## execution
 
@@ -27,7 +28,7 @@ It's an example of full automation of the famous cpanel graphic tool. It changes
     'url': 'https://cp.tophost.it/',
     'httpAuthUser': '',
     'httpAuthPass': '',
-    'editDNSElement': 'body > table:nth-child(3) > tbody > tr:nth-child(1) > td:nth-child(4) > p:nth-child(2) > table:nth-child(2) > tbody > tr:nth-child(2) > td:nth-child(4) > a',
+    'editDNSElement': 'body > table:nth-child(4) > tbody > tr:nth-child(1) > td:nth-child(4) > p:nth-child(2) > table:nth-child(2) > tbody > tr:nth-child(2) > td:nth-child(4) > a',
     'editRecordElement': '#div-main > table > tbody > tr > td:nth-child(2) > table:nth-child(3) > tbody > tr:nth-child(8) > td:nth-child(5) > a',
     'recordInputBox': '#td-label2 > input',
   }
