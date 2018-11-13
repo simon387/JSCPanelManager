@@ -4,15 +4,21 @@ javascript version of https://github.com/simon387/CPanelManager
 
 Why javascript and no more a full java solution? was bored about jaunt being closed source
 
+---
+
 ## what is that?
 
 It's an example of full automation of the famous cpanel graphic tool. It changes the DNS IP of a given protocol (www, ftp, ecc).
+
+---
 
 ## requirements
 
 + ```sudo npm install phantomjs -g```
 + ```sudo npm install casperjs -g```
 + adding ```--unsafe-perm=true --allow-root``` can helps sometime
+
+---
 
 ## execution
 
@@ -34,6 +40,8 @@ It's an example of full automation of the famous cpanel graphic tool. It changes
   }
   ```
 + example of bash running script: ```sh run.sh```
+
+---
 
 ## shell output example
 ```bash
@@ -93,3 +101,9 @@ It's an example of full automation of the famous cpanel graphic tool. It changes
 [debug] [phantom] Navigation requested: url=about:blank, type=Other, willNavigate=true, isMainFrame=true
 [debug] [phantom] url changed to "about:blank"
 ```
+
+---
+
+## License
+
+[MIT](https://github.com/simon387/JSCPanelManager/blob/master/LICENSE)
