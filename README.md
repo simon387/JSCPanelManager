@@ -14,7 +14,7 @@ It's an example of full automation of the famous cpanel graphic tool. It changes
 
 ## requirements
 
-+ pyhton2.x +
++ python2.x +
 + ```sudo npm install phantomjs -g``` or, if you got deprecation problems, ```yarn global add phantomjs-prebuilt```
 + ```sudo npm install casperjs -g```
 + adding ```--unsafe-perm=true --allow-root``` can helps sometime
